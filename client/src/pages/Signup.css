@@ -1,0 +1,64 @@
+.signup-container {
+    max-width: 28rem; /* 448px */
+    margin: 2.5rem auto;
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid #d1d5db; /* Gray border */
+    border-radius: 0.5rem;
+  }
+  
+  .signup-container h2 {
+    font-size: 1.5rem; /* 24px */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .signup-container input,
+  .signup-container textarea,
+  .signup-container select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db; /* Gray border */
+    border-radius: 0.375rem;
+  }
+  
+  .signup-container textarea {
+    resize: vertical; /* Allows vertical resizing */
+  }
+  
+  .signup-container input[type="submit"] {
+    background-color: #3b82f6; /* Blue */
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-container input[type="submit"]:hover {
+    background-color: #2563eb; /* Darker blue */
+  }
+  
+  .signup-container .login-link {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .signup-container .login-link a {
+    color: #3b82f6; /* Blue */
+    text-decoration: underline;
+  }
+  
+  .signup-container .login-link a:hover {
+    color: #2563eb; /* Darker blue */
+  }
+  
