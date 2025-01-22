@@ -1,0 +1,1 @@
+train_classifer(self.controller.active_name)
